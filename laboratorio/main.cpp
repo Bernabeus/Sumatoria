@@ -9,15 +9,15 @@ int main()
     do{
     cout << "Ingrese el numero n: ";
     cin >> n;
-    cout << endl;
     cout << "Ingrese el numero m: ";
     cin >> m;
-    cout << endl;
      if ((n < 0) || (m < 0)){
-        cout << "El ingreso de los numeros n y m tiene que ser de enteros postivos:" << endl;
+        cout << "El ingreso de los numeros n y m tiene que ser de enteros postivos " << endl;
+        cout << endl;
      }
      if(n >= m){
-          cout << "El numero n no puede ser mayor o igual que el numero m" << endl;
+         cout << "El numero n no puede ser mayor o igual que el numero m" << endl;
+         cout << endl;
     }
     }while((n < 0) || (m < 0) || (n >= m ));
 
