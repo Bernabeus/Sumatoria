@@ -26,7 +26,7 @@ int main()
 }
 
 int sumatoria(int n, int m){
-    int suma = 0, sum = 0;
+    int sum = 0;
     for(int i = n; i <= m; i++){
         sum = sum + i;
     }
