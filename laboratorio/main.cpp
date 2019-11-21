@@ -5,6 +5,7 @@ int sumatoria(int m, int n);
 int main()
 {
     int n, m;
+    cout << "Algoritmo que realiza la sumatoria de los numeros comprendidos entre n y m" << endl;
     do{
     cout << "Ingrese el numero n: ";
     cin >> n;
@@ -16,7 +17,7 @@ int main()
         cout << "El ingreso de los numeros n y m tiene que ser de enteros postivos:" << endl;
      }
      if(n >= m){
-          cout << "El numero n no puede ser mayor que el numero m" << endl;
+          cout << "El numero n no puede ser mayor o igual que el numero m" << endl;
     }
     }while((n < 0) || (m < 0) || (n >= m ));
 
